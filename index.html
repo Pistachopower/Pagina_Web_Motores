@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MotorParts Express</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    
+    <!-- Este es el menú -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Sobre MotorParts Express</a>
+            <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Nuestros servicios</a>
+            <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MotorParts Express</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contacto</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">Más <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="#" class="w3-bar-item w3-button"><b>Búsqueda de motores</b></a>
+                    <a href="#" class="w3-bar-item w3-button"><b>Ventas de repuestos</b></a>
+                    <a href="#" class="w3-bar-item w3-button"><b>Venta de motores</b></a>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+                    class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Sobre MotorParts
+            Express</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Nuestros servicios</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contacto</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MotorParts Express</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Automatic Slideshow Images -->
+
+        
+        <div class="mySlides w3-display-container w3-center">
+            <img src="imagenes/imagen_empresa.jpg" style="width:35%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Búsqueda de motores</h3>
+                <p><b>Ofrecemos el servicio de búsqueda de un motor.</b></p>
+            </div>
+        </div>
+         
+      
+
+
+        <div class="mySlides w3-display-container w3-center">
+            <img src="imagenes/coche.webp" style="width:50%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Vendemos coches</h3>
+                <p><b>Vendemos cualquier tipo de coches y de cualquier marca.</b></p>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="imagenes/motores.jpg" style="width:50%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Venta de motores</h3>
+                <p><b>Vendemos los motores de los clientes.</b></p>
+            </div>
+        </div>
+
+        <!-- The Band Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <h2 class="w3-wide">MotorParts Express</h2>
+            <p class="w3-opacity"><i>Motores nuevos y usados</i></p>
+            <p class="w3-justify">Somos una empresa de ventas de motores de todo tipo. Nuestra central se encuentra en
+                la península, pero hacemos envíos a toda España. Nuestro servicio se caracteriza por la calidad de los
+                motores.La venta de nuestros motores tiene la calidad que buscas y cuenta con una garantía de 6 meses.
+                En tal caso de alguna eventualidad con el motor se hace la devolución del importe pagado por cliente.
+            </p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p>Motores</p>
+                    <img src="imagenes/motores_solo.jpg" class="w3-round w3-margin-bottom" alt="Random Name"
+                        style="width:80%">
+                </div>
+                <div class="w3-third">
+                    <p>Repuestos</p>
+                    <img src="imagenes/repuestos_solo.jpg" class="w3-round w3-margin-bottom" alt="Random Name"
+                        style="width:80%">
+                </div>
+                <div class="w3-third">
+                    <p>Venta de vehículos</p>
+                    <img src="imagenes/ventacoches_solo.jpg" class="w3-round" alt="Random Name" style="width:80%">
+                </div>
+            </div>
+        </div>
+
+        <!-- The Tour Section -->
+        <div class="w3-black" id="tour">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">Ver citas disponible</h2>
+                <p class="w3-opacity w3-center"><i>Recuerda guardar tu cita</i></p><br>
+
+                <ul class="w3-ul w3-border w3-white w3-text-grey">
+                    <li class="w3-padding">Enero <span class="w3-tag w3-red w3-margin-left">No disponible</span></li>
+                    <li class="w3-padding">Febrero <span class="w3-tag w3-red w3-margin-left">No disponible</span></li>
+                    <li class="w3-padding">Marzo<span class="w3-tag w3-red w3-margin-left">No disponible</span></li>
+                    
+                </ul>
+
+                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="imagenes/Las_palmas.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Las Palmas</b></p>
+                            <p>Conoce nuestra sede.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Pedir
+                                cita</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="imagenes/Peninsula.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Península</b></p>
+                            <p>Sevilla.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Pedir
+                                cita</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="imagenes/tenerife.jpg" alt="San Francisco" style="width:100%"
+                            class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Tenerife</b></p>
+                            <p>Cede de envíos.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Pedir
+                                cita</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ticket Modal -->
+        <div id="ticketModal" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <span onclick="document.getElementById('ticketModal').style.display='none'"
+                        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+                    <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+                </header>
+                <div class="w3-container">
+                    <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+                    <input class="w3-input w3-border" type="text" placeholder="How many?">
+                    <p><label><i class="fa fa-user"></i> Send To</label></p>
+                    <input class="w3-input w3-border" type="text" placeholder="Enter email">
+                    <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i
+                            class="fa fa-check"></i></button>
+                    <button class="w3-button w3-red w3-section"
+                        onclick="document.getElementById('ticketModal').style.display='none'">Close <i
+                            class="fa fa-remove"></i></button>
+                    <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Contact Section -->
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+            <h2 class="w3-wide w3-center">Contacto</h2>
+            <p class="w3-opacity w3-center"><i>Escríbenos</i></p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-col m6 w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker" style="width:30px"></i> Las Palmas de Gran Canarias, España<br>
+                    <i class="fa fa-phone" style="width:30px"></i> Teléfono: +0034 604 33 09 85<br>
+                    <i class="fa fa-envelope" style="width:30px"> </i> Email: repuestosexpres@gmail.com<br>
+                </div>
+                <div class="w3-col m6">
+                    <form action="/action_page.php" target="_blank">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
+                            </div>
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                            </div>
+                        </div>
+                        <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message">
+                        <button class="w3-button w3-black w3-section w3-right" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+    <!-- Image of location/map -->
+    
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Hecho por Nelson Galicia<a href="" target="_blank"></a></p>
+    </footer>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>
